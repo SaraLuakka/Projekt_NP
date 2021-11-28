@@ -2,11 +2,11 @@
 #include "kwadrat.h"
 #include "prostokat.h"
 #include "trojkat.h"
-#include "okrag.h"
+#include "kolo.h"
 
 int main() {
     char figura;
-    printf("Podaj nazwe figury (k-kwadrat, p-prostokat, t-trojkat, o-okrag).\nWystarczy pierwsza litera nazwy figury:\n");
+    printf("Podaj nazwe figury (k-kwadrat, p-prostokat, t-trojkat, c-kolo).\nWystarczy pierwsza litera nazwy figury:\n");
     scanf("%c", &figura);
 
     switch (figura) { //instrukacja switch do wyboru wzoru pola wzg. figury
@@ -19,8 +19,8 @@ int main() {
         case 't':
             oblicz_trojkat(); // Kuba
             break;
-        case 'o':
-            oblicz_okrag(); // Wioletta
+        case 'c':
+            oblicz_kolo(); // Wioletta
             break;
         default:
             printf("Podano bledny skrot figury.\n");
