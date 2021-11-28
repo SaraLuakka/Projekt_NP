@@ -1,7 +1,9 @@
+#include "kolo.h"
 #include <stdio.h>
 #include <math.h>
 
-int main()
+
+void oblicz_kwadrat()
 {
     float r, pole;
 
@@ -9,9 +11,4 @@ int main()
     scanf("%f", &r);
     pole = M_PI * pow(r,2);
     printf("Pole kola o promieniu %.3f jest rowne %.3f", r, pole);
-
-    getchar();
-    getchar();
-
-    return 0;
 }
