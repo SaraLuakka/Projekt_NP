@@ -6,7 +6,8 @@
 
 int main() {
     char figura;
-    printf("Podaj nazwe figury (k-kwadrat, p-prostokat, t-trojkat, h-kolo).\nWystarczy pierwsza litera nazwy figury:\n");
+
+    printf("Podaj nazwe figury (k-kwadrat, p-prostokat, t-trojkat, x-kolo).\nWystarczy pierwsza litera nazwy figury:\n");
     scanf("%c", &figura);
 
     switch (figura) { //instrukacja switch do wyboru wzoru pola wzg. figury
@@ -19,7 +20,7 @@ int main() {
         case 't':
             oblicz_trojkat(); // Kuba
             break;
-        case 'h':
+        case 'x':
             oblicz_kolo(); // Wioletta
             break;
         default:
