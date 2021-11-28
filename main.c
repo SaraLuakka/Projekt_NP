@@ -19,7 +19,7 @@ int main() {
         case 't':
             oblicz_trojkat(); // Kuba
             break;
-        case 'o':
+        case 'c':
             oblicz_kolo(); // Wioletta
             break;
         default:
