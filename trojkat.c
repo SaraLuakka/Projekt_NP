@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+void oblicz_trojkat() {
     int i = 0;
     float a, b, c, P, p;
 
