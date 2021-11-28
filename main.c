@@ -6,6 +6,7 @@
 
 int main() {
     char figura;
+
     printf("Podaj nazwe figury (k-kwadrat, p-prostokat, t-trojkat, x-kolo).\nWystarczy pierwsza litera nazwy figury:\n");
     scanf("%c", &figura);
 
