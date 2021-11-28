@@ -3,7 +3,7 @@
 #include <math.h>
 
 
-void oblicz_kwadrat()
+void oblicz_kolo()
 {
     float r, pole;
 
