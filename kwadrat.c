@@ -1,5 +1,5 @@
 #include "kwadrat.h"	//
-#include <stdio.h>
+#include <stdio.h>	//
 #include <math.h>
 
 void oblicz_kwadrat() {
