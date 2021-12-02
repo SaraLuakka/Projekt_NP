@@ -1,4 +1,4 @@
-#include "kwadrat.h"
+#include "kwadrat.h"	//
 #include <stdio.h>
 #include <math.h>
 
